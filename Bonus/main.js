@@ -5,8 +5,8 @@
 // https://bitbucket.org/booleancareers/ex-hamburger-menu-base/downloads
 // Ricordate di scrivere solo il codice JavaScript con jQuery e non modificare HTML e CSS
 
-var hamburgerYes = $('a > .fas.fa-bars');
-var hamburgerNo = $('a > .fas.fa-times')
+var hamburgerYes = $('.header-right > a');
+var hamburgerNo = $('.close')
 
 // hamburgerYes.click(function () {
 // 	$('.hamburger-menu').css('display', 'block');

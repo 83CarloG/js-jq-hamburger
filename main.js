@@ -5,15 +5,27 @@
 // https://bitbucket.org/booleancareers/ex-hamburger-menu-base/downloads
 // Ricordate di scrivere solo il codice JavaScript con jQuery e non modificare HTML e CSS
 
-var hamburgerYes = $('.fas.fa-bars');
-var hamburgerNo = $('.fas.fa-times')
+var hamburgerYes = $('a > .fas.fa-bars');
+var hamburgerNo = $('a > .fas.fa-times')
+
+// hamburgerYes.click(function () {
+// 	$('.hamburger-menu').css('display', 'block');
+// }
+// );
+//
+// hamburgerNo.click(function () {
+// 	$('.hamburger-menu').css('display', 'none');
+// }
+// );
 
 hamburgerYes.click(function () {
-	$('.hamburger-menu').css('display', 'block');
+	/* Act on the event */
+	$('.hamburger-menu').show(500);
 }
 );
 
 hamburgerNo.click(function () {
-	$('.hamburger-menu').css('display', 'none');
+	/* Act on the event */
+	$('.hamburger-menu').hide(500);
 }
 );

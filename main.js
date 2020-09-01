@@ -7,7 +7,6 @@
 
 var hamburgerYes = $('.fas.fa-bars');
 var hamburgerNo = $('.fas.fa-times')
-var visibile = false;
 
 hamburgerYes.click(function () {
 	$('.hamburger-menu').css('display', 'block');
